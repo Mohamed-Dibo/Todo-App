@@ -1,0 +1,26 @@
+.completed p,
+.completed h4 {
+  text-decoration: line-through;
+}
+.todo-list ul {
+  list-style: none;
+  padding: 48px 20px;
+  margin-bottom: 0;
+  li {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: ui-monospace;
+    .task__Content {
+      display: flex;
+      flex-flow: column nowrap;
+    }
+    button {
+      text-transform: capitalize;
+    }
+  }
+}

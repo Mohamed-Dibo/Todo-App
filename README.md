@@ -1,27 +1,25 @@
-# MyApp
+# ToDo-Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
-## Development server
+## Available Scripts
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# To Run The Project :
 
-## Code scaffolding
+### `First` `npm install`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### `Second` `install packages below`
 
-## Build
+### `Finaly` `ng serve -o`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# For Demo .\
 
-## Running unit tests
+Open [http://localhost:3000](http://localhost:4200) to view it in the browser.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Downloaded Packages
 
-## Running end-to-end tests
+sass             : npm install node-sass --save.\
+bootstrap        : npm install sweetalert2 --save.\
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Developed By :
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### `Mohamed Diab` `https://www.linkedin.com/in/mohamed-ebrahem/`

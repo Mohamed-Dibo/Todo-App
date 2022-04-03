@@ -6,5 +6,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-app';
+  tasks = [{
+    text :"first task",
+    description:"des 1",
+    completed: false,
+  },{
+    text :"second task",
+    description:"des 2",
+    completed: false,
+  },{
+    text :"third task",
+    description:"des 3",
+    completed: false,
+  }];
+  myEventDelete(event:any){
+    this.tasks = [...event];
+    
+  }
+  updateTask(event:any){
+   this.tasks = [...event];
+  }
 }

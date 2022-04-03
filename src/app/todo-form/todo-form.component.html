@@ -1,0 +1,5 @@
+<form class="todoForm" (submit)='addToList()'>
+    <input class="todoInput form-control mb-5" type="text" [(ngModel)]="Title" name="Title" placeholder="Title">
+    <input class="todoInput form-control mb-5" type="text" [(ngModel)]="description" name="description"  placeholder="description">
+    <button type="submit" class="todoSubmit btn btn-primary">add task</button>
+</form>
